@@ -106,6 +106,7 @@ namespace CubeSolver2x2 {
             SetColorsOfBlocks();
             richTextBox.Document.Blocks.Clear();
             richTextBox.Document.Blocks.Add(new Paragraph(new Run(commands)));
+            commands = "";
         }
 
         private void SetColorsOfBlocks() {
